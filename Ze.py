@@ -76,7 +76,7 @@ async def _(event):
 @Ze.on(events.NewMessage(outgoing=True, pattern=r"\.فحص"))
 async def _(event):
     start = datetime.datetime.now()
-    await event.edit("Ze - جاري الفحص....")
+    await event.edit("Ahmed - جاري الفحص....")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
