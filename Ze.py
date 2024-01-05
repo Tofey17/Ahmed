@@ -36,7 +36,7 @@ import requests
 
 Ze.start()
 c = requests.session()
-bot_username = '@zmmbot'
+bot_username = '@EEOBOT'
 bot_usernamee = '@A_MAN9300BOT'
 
 y = datetime.datetime.now().year
@@ -49,7 +49,7 @@ sec = time.time()
 LOGS = logging.getLogger(__name__)
 
 DEVS = [
-   6581896306,
+   5871764800,
 ]
 DEL_TIME_OUT = 10
 normzltext = "1234567890"
@@ -61,8 +61,8 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await Ze(JoinChannelRequest("@Source_Ze"))
-        await Ze(JoinChannelRequest("@ZeSupport"))
+        await Ze(JoinChannelRequest("@B_G_GG"))
+        await Ze(JoinChannelRequest("@T33TD"))
     except BaseException:
         pass
 
@@ -80,13 +80,13 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**Ze - تشيكر زد إي
+**Ahmed - تـــشكير احمد علاء
 ☆ VERSION : 3.3
 ☆ PING : `{ms}`
 ☆ DATE : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
-☆ Ze : @Source_Ze**
-☆ Developer : @ELHYBA
+☆ Ah : @B_G_GG**
+☆ Developer : @xx_xyx
 
 -قـم بإرسال `.الاوامر`
 ''')
@@ -121,7 +121,7 @@ ownerhson_id = 6581896306
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('هنا يمك سيد ابشر  @Source_Ze')
+        order = await event.reply('هنا يمك سيد ابشر  @B_G_GG')
 
 @Ze.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
@@ -133,14 +133,14 @@ async def update(event):
 async def _(event):
         await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
         channel_entity = await Ze.get_entity(bot_username)
-        await Ze.send_message('@zmmbot', 'جاري التجميع بواسطة | SOMY TEAM')
+        await Ze.send_message('@eeobot', 'جاري التجميع بواسطة | SOMY TEAM')
         channel_entity = await Ze.get_entity(bot_username)
-        await Ze.send_message('@zmmbot', '/start')
+        await Ze.send_message('@eeonot', '/start')
         await asyncio.sleep(5)
-        msg0 = await Ze.get_messages('@zmmbot', limit=1)
+        msg0 = await Ze.get_messages('@eeobot', limit=1)
         await msg0[0].click(2)
         await asyncio.sleep(5)
-        msg1 = await Ze.get_messages('@zmmbot', limit=1)
+        msg1 = await Ze.get_messages('@eeobot', limit=1)
         await msg1[0].click(0)
 
         chs = 1
@@ -161,7 +161,7 @@ async def _(event):
                 except:
                     bott = url.split('/')[-1]
                     await Ze(ImportChatInviteRequest(bott))
-                msg2 = await Ze.get_messages('@zmmbot', limit=1)
+                msg2 = await Ze.get_messages('@eeobot', limit=1)
                 await msg2[0].click(text='تحقق')
                 chs += 1
                 
@@ -225,7 +225,7 @@ logging.basicConfig(
 
 async def join_channel():
     try:
-        await Ze(JoinChannelRequest("@Source_Ze"))
+        await Ze(JoinChannelRequest("@B_G_GG"))
     except BaseException:
         pass
  
@@ -389,18 +389,18 @@ async def spammer(event):
     
 @Ze.on(events.NewMessage(outgoing=True, pattern=".سورس"))
 async def _(event):
-      await event.reply("""السـورس يعمـل زد إي يعمل بنجاح @Source_Ze
+      await event.reply("""السـورس يعمـل احمد علاء يعمل بنجاح @B_G_GG
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 
 
 - سورس بسيط يحتوي على الاوامر المهمة التي تحتاجها 
-- للدخول لقناة المطور تفضل - @Source_Ze .
+- للدخول لقناة المطور تفضل - @B_G_GG.
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍"""
 )
 
 @Ze.on(events.NewMessage(outgoing=True, pattern=".مطور"))
 async def _(event):
-      await event.reply("""مودي الشيطان : @ELHYBA"""
+      await event.reply("""توفي العامري : @EEc5e"""
 )
 
 @Ze.on(events.NewMessage(outgoing=True, pattern=".حلويات"))
