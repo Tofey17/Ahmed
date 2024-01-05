@@ -271,11 +271,10 @@ async def _(event):
                     await Ze(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
-ZE - تــشــيــكــر زد إي
+Ahmed - تــــشكير احمد علاء
 ꪊ𝘴ꫀ𝘳  : @{username}        
-ᥴꫝ  / @Source_Ze 
-@ELHYBA
-    ''')
+ᥴꫝ  / @B_G_GG
+ @xx_xyx''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
                     with open("banned.txt", "a") as f:
@@ -331,12 +330,10 @@ async def _(event):
                         await Ze(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
-ZE - تــشــيــكــر زد إي
+Ahmed - تــــشكير احمد علاء
 ꪊ𝘴ꫀ𝘳  : @{username}        
-ᥴꫝ  / @Source_Ze
-@ELHYBA
-
-    ''')
+ᥴꫝ  / @B_G_GG
+ @xx_xyx''')
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
                         await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
